@@ -11,3 +11,15 @@ content-type: application/json
     "url": "test1",
     "likes": 1
 }
+
+###
+PUT http://localhost:3001/api/blogs/62a8b9d93896bfb6a7390cdd
+content-type: application/json
+
+{ 
+    "likes": 10
+}
+
+###
+
+GET http://localhost:3001/api/blogs/62a8b9d93896bfb6a7390cdd
